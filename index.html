@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatTube</title>
+  <!-- Linking Unicons For Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./Assets/img/CatTube2.png" type="image/icon type">
+</head>
+<body class="sidebar-hidden">
+  <div class="container">
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <!-- <img src="Assets/img/Dhiraj 3.png" alt="Logo" class="logo-image"> -->
+            <h2 class="logo-text">CatTube</h2>
+          </a>
+        </div>
+        
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" placeholder="Search" class="search-input" required>
+            <button class="nav-button search-button">
+              <i class="uil uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uil uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="./Assets/img/user.jpeg" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main Layout -->
+    <main class="main-layout">
+      <div class="screen-overlay"></div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <!-- <img src="./Assets/img/Dhiraj 3.png" alt="Logo" class="logo-image"> -->
+            <h2 class="logo-text">ChuhaTube</h2>
+          </a>
+        </div>
+  
+        <div class="links-container">
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-estate"></i> Home
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-video"></i> Movies
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i> Series
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i> K-Drama
+            </a>
+          </div>
+          <!-- <div class="section-separator"></div> -->
+  
+          <div class="link-section">
+            <!-- <h4 class="section-title">You</h4> -->
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-user-square"></i> Your channel -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-history"></i> History -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-clock"></i> Watch later -->
+            </a>
+          </div>
+          <!-- <div class="section-separator"></div> -->
+          
+          <div class="link-section">
+            <!-- <h4 class="section-title">Explore</h4> -->
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-fire"></i> Trending -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-music"></i> Music -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-basketball"></i> Gaming -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-trophy"></i> Sports -->
+            </a>
+          </div>
+          <!-- <div class="section-separator"></div> -->
+  
+          <div class="link-section">
+            <!-- <h4 class="section-title">More from YouTube</h4> -->
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-shield-plus"></i> YouTube Plus -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-headphones-alt"></i> YouTube Music -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-airplay"></i> YouTube Kids -->
+            </a>
+          </div>
+          <!-- <div class="section-separator"></div> -->
+  
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-setting"></i> Settings -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-file-medical-alt"></i> Report -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-question-circle"></i> Help -->
+            </a>
+            <a href="#" class="link-item">
+              <!-- <i class="uil uil-exclamation-triangle"></i> Feedback -->
+            </a>
+          </div>
+        </div>
+      </aside>
+  
+      <div class="content-wrapper">
+        <!-- Category List -->
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">new</button>
+          <button class="category-button">Movie</button>
+          <button class="category-button">Series</button>
+          <button class="category-button">Hindi</button>
+          <button class="category-button">English</button>
+          <button class="category-button">K-Drama</button>
+          
+        </div>
+        
+        <!-- Video List -->
+        <div class="video-list">
+          <a href="https://drive.google.com/file/d/1KHFKFNReBP_CCEm4cvmsOL9NFiVchNPT/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/love and other drugs.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:51m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Love and other drugs </h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie  • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/14FLXg99k3LZ9FPZTtsPYMoiEb0bjrePd/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/the last summer.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:50m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">The Last Summer</h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024 </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1QsJmWw5aLY8S5Sy73g_hjWiPBKhLlt9p/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/10 Things I Hate About You.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1h 37m
+              </p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">10 Things I Hate About You</h2>
+                <p class="channel-name">1999 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1KHFKFNReBP_CCEm4cvmsOL9NFiVchNPT/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/love and other drugs.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:51m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Love and other drugs </h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie  • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/14FLXg99k3LZ9FPZTtsPYMoiEb0bjrePd/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/the last summer.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:50m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">The Last Summer</h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024 </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1QsJmWw5aLY8S5Sy73g_hjWiPBKhLlt9p/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/10 Things I Hate About You.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1h 37m
+              </p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">10 Things I Hate About You</h2>
+                <p class="channel-name">1999 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1KHFKFNReBP_CCEm4cvmsOL9NFiVchNPT/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/love and other drugs.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:51m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Love and other drugs </h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie  • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+         
+          <a href="https://drive.google.com/file/d/1QsJmWw5aLY8S5Sy73g_hjWiPBKhLlt9p/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/10 Things I Hate About You.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1h 37m
+              </p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">10 Things I Hate About You</h2>
+                <p class="channel-name">1999 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+         
+          <a href="https://drive.google.com/file/d/14FLXg99k3LZ9FPZTtsPYMoiEb0bjrePd/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/the last summer.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:50m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">The Last Summer</h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024 </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1KHFKFNReBP_CCEm4cvmsOL9NFiVchNPT/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/love and other drugs.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1hr:51m</p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Love and other drugs </h2>
+                <p class="channel-name">2023 ‧ Comedy/Romance</p>
+                <p class="views">Movie  • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+         
+          <a href="https://drive.google.com/file/d/1QsJmWw5aLY8S5Sy73g_hjWiPBKhLlt9p/view?usp=drive_link" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./Assets/img/10 Things I Hate About You.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1h 37m
+              </p>
+            </div>
+            <div class="video-info">
+              <img src="./Assets/img/Dhiraj 3.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">10 Things I Hate About You</h2>
+                <p class="channel-name">1999 ‧ Comedy/Romance</p>
+                <p class="views">Movie • 09-08-2024</p>
+              </div>
+            </div>
+          </a>
+         
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
